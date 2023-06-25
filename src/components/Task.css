@@ -1,13 +1,43 @@
 .task-container {
-    background-color: #68a67d;
+    background-color: #8FBF9F;
     margin: 8px 0;
     padding: 15px 20px;
     display: flex;
     border-radius: 5px;
     justify-content: space-between;
-    color: #353535;
+    color: #632801;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
 }
 
 .task-title{
+    cursor: pointer;
+}
+
+.task-title:hover{
+    color: #444444;
+}
+
+.buttons-task-container {
+    display: flex;
+    flex-direction: row;
+}
+.remove-task-button, .see-task-details-button{
+    background-color: #8FBF9F;
+    color: #444444;
+    font-size: 28px;
+    border: none;
+    margin: 0 2px;
+    transition: all 0.3s ease;
+}
+
+.remove-task-button:hover{
+    color: #be0404;
+    cursor: pointer;
+}
+
+.see-task-details-button:hover{
+    color: #cc8d2d;
     cursor: pointer;
 }
