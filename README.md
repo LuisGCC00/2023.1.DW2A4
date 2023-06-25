@@ -14,6 +14,7 @@ Prof. Quirino         <luiz.quirino@ifsp.edu.br>
 - Etapa 5 - commit final. 
 ## Alterações realizadas frente ao modelo de referência apresentado:
 - Alteração do react-router-dom para a versão 5.3.4 para correção de bugs;
+- Alteração na posição dos buttons;
 - Alteração da paleta de cores;
 - Alteração do favicon.ico;
 - Validar o campo do input para não aceitar dados vazios (REGEX);
